@@ -1,0 +1,204 @@
+
+body{
+    background-color: black
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid rgb(36, 36, 36);
+    position: relative;
+}
+
+.contenido-nav{
+    margin-left: 20px;
+    position: relative;
+    top: 4px;
+    left: 20px;
+    }
+.contenido-nav-derecha img{
+height: 30px;
+position: relative;
+width: 30px;
+left: 80%;
+top: 50%;
+margin: 15px;
+}
+
+.nombre{
+    height: 35px;
+    width: 350px;
+    text-align: center;
+    color: rgb(121, 121, 121);
+    font-size: 18px;
+    position: absolute;
+    left: 30%;
+    top: 18px;
+    padding-top: 6px;
+    display: inline-block;
+    font-family: 'Monaco';
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 4%;
+}
+
+
+
+.contenido-nav-izquierda {
+    color: rgb(212, 212, 212);
+    font-size: 18px;
+    font-family: 'Curier New';
+    position: absolute;
+    text-shadow: 2px 2px 10px white;
+    top: 34%;
+    left: 7%;
+    }
+.contenido-nav-izquierda img{
+    height: 35px;
+    position: absolute;
+    width: 35px;
+    top: -7px;
+    left: -44px;
+    }
+
+.contenido-nav-izquierda h1{
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 500px;
+    font-weight: 100;
+    font-size: 25px;
+    font-family:'Gill Sans';
+    }
+
+
+
+.menu-secundario{
+    position: fixed;
+    width: 5%;
+    top: 10%;
+    height: 1000px;
+    border-right: 1px solid rgb(36, 36, 36);
+}
+.ms-contenido a {
+    box-shadow: 1px 1px 3px rgb(100, 100, 100);
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 35, 35);
+    font-size: 25px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 12px;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.ms-contenido a img{
+    box-shadow: 1px 1px 10px rgb(0, 48, 80);
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 35, 35);
+    font-size: 25px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.ms-contenido a img:hover{
+    box-shadow: 1px 1px 5px rgb(146, 146, 146);
+}
+
+
+.section-izq audio{
+    z-index: 20;
+    position: absolute;
+    left: 111px;
+    top: 450px;
+    height: 40px;
+    width: 295px;
+}
+
+.section-izq img{
+    z-index: 10;
+    position: absolute;
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+    left: 110px;
+    top: 130px;
+}
+
+.section-izq h2{
+    color: white;
+    position: relative;
+    font-size: 18px;
+    font-family: Verdana;
+    font-weight: 100;
+    left: 210px;
+    top: 85px;
+}
+.section-izq h3{
+    color: white;
+    position: relative;
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: 100;
+    left: 215px;
+    top: 85px;
+}
+
+.section-izq{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    border: 1px solid rgb(60, 60, 60);
+    width: 350px;
+    height: 350px;
+}
+
+.section-der{
+    font-family: arial;
+    color: rgb(201, 255, 253);
+    padding: 20px;
+    border-radius: 10%;
+    background-color: rgb(5, 0, 15);
+    box-shadow: 1px 1px 150px rgb(0, 34, 56);
+    position: absolute;
+    height: 520px;
+    width: 420px;
+    left: 60%;
+    top: 130px;
+    overflow: auto;
+    text-align: center;
+}
+
+.section-der:hover{
+    box-shadow: 1px 1px 160px rgb(0, 48, 80);
+    
+}
+.section-der img{
+    position: relative;
+    background-size: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.section-der h2{
+    color: aliceblue;
+    text-shadow: 2px 2px 10px rgb(0, 108, 180);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'arial';
+    font-weight: 100;
+}
+.section-der h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.section-der p{
+    font-family: 'Courier New';
+}

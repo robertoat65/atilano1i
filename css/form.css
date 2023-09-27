@@ -1,0 +1,86 @@
+body{
+    background: url(../img/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.login-contenedor{
+    font-family: arial;
+    border-radius: 1%;
+    background-color: rgba(70, 70, 70, 0.688);
+    color: rgb(72, 0, 90);
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 9vh auto;
+    padding: 100px;
+    padding-top: 30px;
+}
+
+.login-contenedor h1{
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.login-contenedor label{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.login-contenedor input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.login-contenedor input[type="text"], .login-contenedor input[type="password"], .login-contenedor input[type="email"]{
+    border: none;
+    background: transparent;
+    height: 40px;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+.login-contenedor input[type="color"]{
+    height: 35px;
+    width: 100%;
+}
+
+.login-contenedor input[type="reset"]{
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 1, 184);
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+}
+.login-contenedor input[type="submit"]{
+
+border-radius: 20px;
+color: rgb(255, 255, 255);
+background-color: rgb(126, 1, 184);
+font-weight: bold;
+height: 50px;
+border: none;
+margin-top: 5px;
+}
+
+nav a{
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(48, 0, 80);
+    color: white;
+    padding: 6px 30px;
+    text-decoration: none;
+}
+
